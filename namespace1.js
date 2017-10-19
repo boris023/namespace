@@ -1,27 +1,36 @@
 //namespace1.js
 
-var BORIS = {
-    colorDiv: function(ev){
-  var target = ev.currentTarget;
-   target.style.backgroundColor = 'blue';
-  target.style.color = 'white';
-     },
-    init: function(){
-    divA =
-        document.getElementbyId('output');
-        var divA.addEventListener('mouseout', 
-        BORIS.colorDiv);
-  }
-   }
+var dorv0021 = {
+   init: function () {
+       console.log("script in dorv0021 called");
+       var div = document.createElement("div");
+       
+       div.className = "box";
+       div.textContent = "dorv0021";
+       
+       document.getElementById('boxes').apprendChild(div);
+       
+       div.addEventListener("click", click);
+       div.addEventListener("mouseover", hover);
+        div.addEventListener("mouseout", hover);
 
-   BORIS.init();
+        function hover(ev) {
+            this.classList.toggle("highlight");
+        }
 
+        function click(ev) {
 
+                this.style.backgroundColor = "#D742F4";
+                this.style.borderColor = "#41A0F4";
+            }
 
-
-
-
-
+        }
+       
+       
+       
+       
+       
+   
 
 
 

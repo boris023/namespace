@@ -5,7 +5,9 @@ var Dorval = {
 colorDiv: function(ev){
     var target = ev.currentTarget;
     target.style.backgroundColor = 'pink';
-    target.style.color = '#333';
+                this.style.borderColor = "#41A0F4";
+           
+    target.style.color = "#41A0F4";
    },
     init: function(){
        var divB = document.getElementById('output');
@@ -19,6 +21,12 @@ Dorval.init();
 
  
 
+
+
+
+
+
+ 
 
 //divB = document.getElementById('output');
 
