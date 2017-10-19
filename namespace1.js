@@ -76,27 +76,6 @@ var dorv0021 = {
 
 
 
-
-var dorv0021 = {
-    init: function(){
-      console.log("script in prof PROF3SSORSR3V3 called";
-    }
-};
-                  
-div.appredChild(img);
-img.addEventListener ('load')        
-                  
-                  
-                  
-let d = document.querySelector('div');
-
-
-        var dorv = document.createElement("div");
-      box.className= "box";
-      var boxes = document.getElementById('box');  
-      let p = document.querySelector('p')
-      p.addEventListener("click"), togglegold);
-  }  
-}
+ß
 
 
